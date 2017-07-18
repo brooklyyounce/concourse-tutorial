@@ -3,8 +3,8 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: golang, tag: 1.6-alpine}
-  version: "lastest"
+  source: {repository: golang}
+  tag: "lastest"
 
 inputs:
 - name: resource-tutorial
